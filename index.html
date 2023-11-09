@@ -1,0 +1,62 @@
+<html><head>
+	<body bgcolor="#afc0cc" align="center"><from></head>
+	  
+	  <title>
+	 Brainware_University
+	  </title>
+	
+	 <br><br><h3><marquee>Hii I am Priyanka<br></marquee>
+	<hr><marquee>It's  My Project</marquee>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	body
+	{
+	background-image:url('dreamstime_xxl_120656504-e1571837937336.jpg') ;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	}
+	</style>
+	
+	
+	<script> 
+	function validateform()
+	{ 
+	var name=document.myform.name.value;
+	var password=document.myform.password.value; 
+	var Mobile_number=document.myform.Mobile_number.value; 
+	var Male=document.myform.Male.value; 
+	var Femal=document.myform.Femal.value; 
+	var Books=document.myform.Books.value; 
+	
+	
+	if (name==null || name=="")
+	{ 
+	alert("Name can't be blank"); 
+	return false;
+	}else if(password.length<6){
+	lert("Password must be at least 6 characters long."); 
+	return false; 
+	
+	} 
+	} 
+	</script>
+	
+	
+	<form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()">
+	<i></i><h2><i>Name:<input type="text" name="name"><br><br>
+	Password:<input type="password" name="password"><br><br>
+	Mobile_number: <input type="text" name="Mobile_number"><br><br>
+	Male: <input type="radio" name="gender" value="Male"><br><br>
+	Femal: <input type="radio" name="gender" value="Femal"><br><br>
+	Books Name: <input type="Books_Name" name="Books_Name"><br><br></i></h2>
+	</form>
+	<div>
+	<a href="index2.html">
+	<button><i>Register</i></button>
+	</a>
+	</div>
+	</h3>
+	</from>
+	</body>
+	</html>
